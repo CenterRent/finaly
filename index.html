@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giovanni Antony — Product Designer & Artist</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<nav class="on-light">
+  <a href="index.html" class="nav-logo">Giovanni Antony</a>
+  <ul class="nav-links">
+    <li><a href="work.html" data-pt="Work" data-en="Work">Work</a></li>
+    <li><a href="store.html" data-pt="Store" data-en="Store">Store</a></li>
+    <li><a href="about.html" data-pt="Sobre" data-en="About">Sobre</a></li>
+    <li><a href="contact.html" data-pt="Contato" data-en="Contact">Contato</a></li>
+    <li class="nav-lang">
+      <button class="lang-btn" data-lang="pt">PT</button>
+      <button class="lang-btn active" data-lang="en">EN</button>
+    </li>
+  </ul>
+  <button class="nav-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu">
+  <a href="work.html">Work</a><a href="store.html">Store</a>
+  <a href="about.html">Sobre</a><a href="contact.html">Contato</a>
+</div>
+
+<!-- ── HERO ── -->
+<section class="hero" data-theme="light">
+
+  <div class="hero-top">
+    <div class="hero-tagline reveal">
+      <p class="hero-tagline-label" data-pt="Product Designer · São Paulo" data-en="Product Designer · São Paulo">Product Designer · São Paulo</p>
+      <p class="hero-tagline-text" data-pt-html="Design orientado a resultado. Interfaces que <em>funcionam</em>, experiências que ficam." data-en-html="Result-driven design. Interfaces that <em>work</em>, experiences that last.">
+        Design orientado a resultado. Interfaces que <em>funcionam</em>, experiências que ficam.
+      </p>
+      <a href="work.html" class="hero-cta" data-pt="Ver projetos →" data-en="See projects →">Ver projetos →</a>
+    </div>
+
+    <div class="hero-photo-center reveal reveal-d1">
+      <img src="casual.jpg" alt="Giovanni Antony" />
+      <p class="hero-photo-label">Giovanni Antony<br>São Paulo · 2026</p>
+    </div>
+
+    <div class="hero-year reveal reveal-d2">2026</div>
+  </div>
+
+  <div class="hero-name-wrap">
+    <span class="hero-name">GIOVANNI</span>
+    <span class="hero-surname">ANTONY</span>
+  </div>
+
+  <div class="hero-bottom-bar">
+    <span class="hero-role" data-pt="Product Designer & Visual Artist" data-en="Product Designer & Visual Artist">Product Designer & Visual Artist</span>
+    <div class="hero-blue-diamond"></div>
+    <span class="hero-scroll-hint" data-pt="scroll" data-en="scroll">scroll</span>
+  </div>
+
+</section>
+
+<!-- ── ABOUT STRIP ── -->
+<section class="about-strip" data-theme="light">
+  <div class="about-strip-cols">
+    <img src="about-bw.jpg" alt="Giovanni Antony" class="about-strip-photo reveal" />
+    <div class="about-strip-right reveal reveal-d1">
+      <img src="workspace.jpg" alt="Workspace" class="about-strip-photo-sm" />
+      <p class="about-strip-text-sm" data-pt="Designer de produto e artista visual. Cada projeto começa com uma pergunta — e termina com resultado mensurável." data-en="Product designer and visual artist. Every project starts with a question — and ends with measurable results.">
+        Designer de produto e artista visual. Cada projeto começa com uma pergunta — e termina com resultado mensurável.
+      </p>
+    </div>
+  </div>
+
+  <div class="about-strip-meet reveal">
+    <p class="about-strip-meet-label" data-pt="Sobre" data-en="About">Sobre</p>
+    <h2 class="about-strip-meet-title" data-pt-html="CONHEÇA <em>GIOVANNI</em><br>ANTONY" data-en-html="MEET <em>GIOVANNI</em><br>ANTONY">CONHEÇA <em>GIOVANNI</em><br>ANTONY</h2>
+    <div class="about-strip-meet-body">
+      <p class="about-strip-meet-text" data-pt="Trabalho na interseção entre estratégia, design e tecnologia. Fora das telas, pinto — a mesma sensibilidade que uso para resolver um onboarding é a que mistura cores numa tela de 120cm." data-en="I work at the intersection of strategy, design and technology. Outside screens, I paint — the same sensibility I use to solve an onboarding is the one that mixes colors on a 120cm canvas.">
+        Trabalho na interseção entre estratégia, design e tecnologia. Fora das telas, pinto — a mesma sensibilidade que uso para resolver um onboarding é a que mistura cores numa tela de 120cm.
+      </p>
+      <a href="about.html" class="about-strip-meet-year">©2026</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── WORK — fundo azul ── -->
+<section class="section-work" data-theme="dark">
+  <div class="section-work-header">
+    <p class="section-work-label" data-pt="Projetos selecionados" data-en="Selected projects">Projetos selecionados</p>
+    <h2 class="section-work-title reveal" data-pt-html="WORK QUE<br>GERA RESULTADO" data-en-html="WORK THAT<br>DRIVES RESULTS">WORK QUE<br>GERA RESULTADO</h2>
+  </div>
+  <ul class="work-items-list">
+    <li class="work-item reveal" onclick="location.href='project-template.html'">
+      <span class="work-num">01</span>
+      <span class="work-title">Seu projeto aqui</span>
+      <span class="work-cat">Product Design</span>
+      <span class="work-year">2026</span>
+    </li>
+    <li class="work-item reveal reveal-d1" onclick="location.href='project-template.html'">
+      <span class="work-num">02</span>
+      <span class="work-title">Adicione seu projeto</span>
+      <span class="work-cat">UX Research</span>
+      <span class="work-year">2026</span>
+    </li>
+    <li class="work-item reveal reveal-d2" onclick="location.href='project-template.html'">
+      <span class="work-num">03</span>
+      <span class="work-title">Mais projetos em breve</span>
+      <span class="work-cat">Design System</span>
+      <span class="work-year">2024</span>
+    </li>
+  </ul>
+</section>
+
+<!-- ── FEATURED IMAGE ── -->
+<div class="featured-img" data-theme="dark">
+  <img src="workspace.jpg" alt="Andes Mountains" />
+  <span class="featured-img-date">Andes · 2026</span>
+  <span class="featured-img-label">Portfolio Giovanni Antony</span>
+</div>
+
+<!-- ── STORE ── -->
+<section class="section-store" data-theme="light">
+  <div class="store-header reveal">
+    <p class="store-header-label" data-pt="Arte original" data-en="Original art">Arte original</p>
+    <h2 class="store-header-title" data-pt-html="<em>OBRAS</em><br>À VENDA" data-en-html="<em>ARTWORKS</em><br>FOR SALE"><em>OBRAS</em><br>À VENDA</h2>
+  </div>
+  <div class="store-items">
+    <div class="store-item reveal" onclick="location.href='store.html'">
+      <img src="painting-blue.jpg" alt="Solidão no mar" class="store-item-img" />
+      <div>
+        <div class="store-item-title">Solidão no mar</div>
+        <div class="store-item-dims">Óleo sobre tela · 80 × 100 cm</div>
+      </div>
+      <div class="store-item-right">
+        <div class="store-item-price">R$ 2.800</div>
+        <a href="#" class="store-item-btn" data-pt="Comprar →" data-en="Buy →">Comprar →</a>
+      </div>
+    </div>
+    <div class="store-item reveal reveal-d1" onclick="location.href='store.html'">
+      <img src="painting-green.jpg" alt="Paisagem interior" class="store-item-img" />
+      <div>
+        <div class="store-item-title">Paisagem interior</div>
+        <div class="store-item-dims">Acrílica sobre tela · 60 × 80 cm</div>
+      </div>
+      <div class="store-item-right">
+        <div class="store-item-price">R$ 1.900</div>
+        <a href="#" class="store-item-btn" data-pt="Comprar →" data-en="Buy →">Comprar →</a>
+      </div>
+    </div>
+    <div class="store-item reveal reveal-d2" onclick="location.href='store.html'">
+      <img src="studio.jpg" alt="Tela em branco" class="store-item-img" />
+      <div>
+        <div class="store-item-title">Tela em branco</div>
+        <div class="store-item-dims">Técnica mista · 120 × 150 cm</div>
+      </div>
+      <div class="store-item-right">
+        <div class="store-item-price">R$ 4.200</div>
+        <a href="contact.html" class="store-item-btn" data-pt="Consultar →" data-en="Inquire →">Consultar →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA FINAL ── -->
+<section class="section-cta" data-theme="light">
+  <p class="cta-label reveal" data-pt="Vamos trabalhar juntos" data-en="Let's work together">Vamos trabalhar juntos</p>
+  <h2 class="cta-title reveal" data-pt-html="PRONTO PARA<br>UM DESIGN QUE<br><em>GERA RESULTADO?</em>" data-en-html="READY FOR<br>DESIGN THAT<br><em>DRIVES RESULTS?</em>">
+    PRONTO PARA<br>UM DESIGN QUE<br><em>GERA RESULTADO?</em>
+  </h2>
+  <div class="cta-bottom">
+    <p class="cta-text reveal" data-pt="Estou disponível para projetos de produto, design systems e encomendas de arte. Me conta o que você tem em mente." data-en="Available for product projects, design systems and art commissions. Tell me what you have in mind.">
+      Estou disponível para projetos de produto, design systems e encomendas de arte. Me conta o que você tem em mente.
+    </p>
+    <a href="contact.html" class="cta-btn reveal" data-pt="Falar comigo →" data-en="Get in touch →">Falar comigo →</a>
+  </div>
+</section>
+
+
+<!-- ── YOUTUBE ── -->
+<section class="section-youtube" data-theme="dark">
+  <div class="youtube-header">
+    <p class="youtube-label" data-pt="Canal no YouTube" data-en="YouTube Channel">YouTube Channel</p>
+    <a href="https://www.youtube.com/@thony_gio" target="_blank" class="youtube-link" data-pt="Ver canal →" data-en="Visit channel →">Visit channel →</a>
+  </div>
+  <a href="https://www.youtube.com/@thony_gio" target="_blank" class="youtube-thumb-wrap">
+    <img src="youtube-thumb.jpg" alt="YouTube — @thony_gio" class="youtube-thumb" />
+    <div class="youtube-overlay">
+      <div class="youtube-play">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+      <div class="youtube-channel-tag">@thony_gio</div>
+    </div>
+  </a>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer data-theme="dark">
+  <div class="footer-contact">
+    <p class="footer-contact-title"><a href="mailto:giovanni.antony@icloud.com">giovanni.antony@icloud.com</a></p>
+    <p class="footer-contact-title"></p>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2026 Giovanni Antony</span>
+    <div class="footer-socials">
+      <a href="https://linkedin.com/in/giovanni-antony" target="_blank">LinkedIn</a>
+      <a href="https://www.instagram.com/thony_gio/" target="_blank">Instagram</a>
+      <a href="https://www.youtube.com/@thony_gio" target="_blank">YouTube</a>
+    </div>
+  </div>
+  <div class="footer-name-big">GIOVANNI ANTONY</div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
